@@ -1,0 +1,124 @@
+[Fri Mar 28 14:01:37 2025
+] [INFO] Попытка подключения к user@localhost:5432/testdb
+[Fri Mar 28 14:01:37 2025
+] [ERROR] Ошибка подключения: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[Fri Mar 28 14:01:37 2025
+] [INFO] ззакрытие соединения
+[Fri Mar 28 14:03:06 2025
+] [INFO] Попытка подключения к user@localhost:5432/testdb
+[Fri Mar 28 14:03:06 2025
+] [INFO] успешное подключение к базе данных
+[Fri Mar 28 14:03:06 2025
+] [INFO] Тестирование подключения...
+[Fri Mar 28 14:03:06 2025
+] [INFO] Тест подключения пройден
+[Fri Mar 28 14:03:06 2025
+] [INFO] Создание backup: pg_dump -h localhost -p 5432 -U user -F plain -f ./backups/local_backup.sql testdb 2>&1
+[Fri Mar 28 14:03:10 2025
+] [INFO] pg_dump: pg_dump: error: could not open output file "./backups/local_backup.sql": Отказано в доступе
+
+[Fri Mar 28 14:03:10 2025
+] [ERROR] Ошибка создания бэкапа. Код: 256
+[Fri Mar 28 14:03:10 2025
+] [INFO] ззакрытие соединения
+[Fri Mar 28 14:03:12 2025
+] [INFO] Попытка подключения к user@localhost:5432/testdb
+[Fri Mar 28 14:03:12 2025
+] [INFO] успешное подключение к базе данных
+[Fri Mar 28 14:03:12 2025
+] [INFO] Тестирование подключения...
+[Fri Mar 28 14:03:12 2025
+] [INFO] Тест подключения пройден
+[Fri Mar 28 14:03:12 2025
+] [INFO] Создание backup: pg_dump -h localhost -p 5432 -U user -F plain -f ./backups/local_backup.sql testdb 2>&1
+[Fri Mar 28 14:03:14 2025
+] [INFO] pg_dump: pg_dump: error: could not open output file "./backups/local_backup.sql": Отказано в доступе
+
+[Fri Mar 28 14:03:14 2025
+] [ERROR] Ошибка создания бэкапа. Код: 256
+[Fri Mar 28 14:03:14 2025
+] [INFO] ззакрытие соединения
+[Fri Mar 28 14:03:56 2025
+] [INFO] Попытка подключения к user@localhost:5432/testdb
+[Fri Mar 28 14:03:56 2025
+] [INFO] успешное подключение к базе данных
+[Fri Mar 28 14:03:56 2025
+] [INFO] Тестирование подключения...
+[Fri Mar 28 14:03:56 2025
+] [INFO] Тест подключения пройден
+[Fri Mar 28 14:03:56 2025
+] [INFO] Создание backup: pg_dump -h localhost -p 5432 -U user -F plain -f ./backups/local_backup.sql testdb 2>&1
+[Fri Mar 28 14:04:00 2025
+] [INFO] pg_dump: pg_dump: error: could not open output file "./backups/local_backup.sql": Отказано в доступе
+
+[Fri Mar 28 14:04:00 2025
+] [ERROR] Ошибка создания бэкапа. Код: 256
+[Fri Mar 28 14:04:00 2025
+] [INFO] ззакрытие соединения
+[Fri Mar 28 14:04:12 2025
+] [INFO] Попытка подключения к user@localhost:5432/testdb
+[Fri Mar 28 14:04:12 2025
+] [INFO] успешное подключение к базе данных
+[Fri Mar 28 14:04:12 2025
+] [INFO] Тестирование подключения...
+[Fri Mar 28 14:04:12 2025
+] [INFO] Тест подключения пройден
+[Fri Mar 28 14:04:12 2025
+] [INFO] Создание backup: pg_dump -h localhost -p 5432 -U user -F plain -f ./backups/local_backup.sql testdb 2>&1
+[Fri Mar 28 14:04:15 2025
+] [INFO] pg_dump: pg_dump: error: could not open output file "./backups/local_backup.sql": Отказано в доступе
+
+[Fri Mar 28 14:04:15 2025
+] [ERROR] Ошибка создания бэкапа. Код: 256
+[Fri Mar 28 14:04:15 2025
+] [INFO] ззакрытие соединения
+[Fri Mar 28 14:04:26 2025
+] [INFO] Попытка подключения к user@localhost:5432/testdb
+[Fri Mar 28 14:04:26 2025
+] [INFO] успешное подключение к базе данных
+[Fri Mar 28 14:04:26 2025
+] [INFO] Тестирование подключения...
+[Fri Mar 28 14:04:26 2025
+] [INFO] Тест подключения пройден
+[Fri Mar 28 14:04:26 2025
+] [INFO] Создание backup: pg_dump -h localhost -p 5432 -U user -F plain -f ./backups/local_backup.sql testdb 2>&1
+[Fri Mar 28 14:04:28 2025
+] [INFO] pg_dump: pg_dump: error: could not open output file "./backups/local_backup.sql": Отказано в доступе
+
+[Fri Mar 28 14:04:29 2025
+] [ERROR] Ошибка создания бэкапа. Код: 256
+[Fri Mar 28 14:04:29 2025
+] [INFO] ззакрытие соединения
+[Fri Mar 28 14:05:19 2025
+] [INFO] Попытка подключения к user@localhost:5432/testdb
+[Fri Mar 28 14:05:19 2025
+] [INFO] успешное подключение к базе данных
+[Fri Mar 28 14:05:19 2025
+] [INFO] Тестирование подключения...
+[Fri Mar 28 14:05:19 2025
+] [INFO] Тест подключения пройден
+[Fri Mar 28 14:05:19 2025
+] [INFO] Создание backup: pg_dump -h localhost -p 5432 -U user -F plain -f ./backups/local_backup.sql testdb 2>&1
+[Fri Mar 28 14:05:22 2025
+] [INFO] pg_dump: pg_dump: error: could not open output file "./backups/local_backup.sql": Отказано в доступе
+
+[Fri Mar 28 14:05:22 2025
+] [ERROR] Ошибка создания бэкапа. Код: 256
+[Fri Mar 28 14:05:22 2025
+] [INFO] ззакрытие соединения
+[Fri Mar 28 14:06:43 2025
+] [INFO] Попытка подключения к user@localhost:5432/testdb
+[Fri Mar 28 14:06:43 2025
+] [INFO] успешное подключение к базе данных
+[Fri Mar 28 14:06:43 2025
+] [INFO] Тестирование подключения...
+[Fri Mar 28 14:06:43 2025
+] [INFO] Тест подключения пройден
+[Fri Mar 28 14:06:43 2025
+] [INFO] Создание backup: pg_dump -h localhost -p 5432 -U user -F plain -f ./backups/local_backup.dump testdb 2>&1
+[Fri Mar 28 14:06:46 2025
+] [INFO] BackUp успешно создан: ./backups/local_backup.dump
+[Fri Mar 28 14:06:46 2025
+] [INFO] ззакрытие соединения
